@@ -1,0 +1,21 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "\"An app that allow users to rent movies\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliyide Ibrahim Owolabi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.5.2",
+    "sumnum": "^1.1.1",
+    "underscore": "^1.13.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.5"
+  }
+}
