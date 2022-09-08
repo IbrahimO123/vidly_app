@@ -4,6 +4,8 @@ const genreSchema = mongoose.Schema({
   name: {
     type: String,
     required: true,
+    minlength: 5,
+    maxlength: 50
   },
   title: {
     type: String,
@@ -37,7 +39,7 @@ const runfunction = (function () {
   };
 })();
 
-//runfunction();
+ //runfunction();
 
 module.exports.Genres = Genres;
 module.exports.genreSchema = genreSchema;

@@ -25,6 +25,11 @@ const customerSchema = mongoose.Schema({
       },
     },
   },
+  email : {
+    type: String,
+    required: true,
+  }
+
 });
 
 const Customers = mongoose.model("Customer", customerSchema);
