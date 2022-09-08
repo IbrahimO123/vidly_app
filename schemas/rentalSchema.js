@@ -33,7 +33,6 @@ const rentalSchema = mongoose.Schema({
       maxlength: 255,
       required: true,
     },
-
   }),
   dateOut: {
     type: Date,
@@ -43,7 +42,7 @@ const rentalSchema = mongoose.Schema({
   dateReturned: {
     type: Date,
   },
-  rentalFree: {
+  rentalFee: {
     type: Number,
     min: 0,
   },
