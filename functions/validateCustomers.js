@@ -5,6 +5,7 @@ function validateCustomer(customer) {
     isGold: Joi.boolean(),
     name: Joi.string().min(5).max(80).required(),
     phone: Joi.string().min(11).max(14).required(),
+    email: Joi.string().email().trim().required().min(5).max(255),
   });
 
   const validResult = schema.validate(customer);
