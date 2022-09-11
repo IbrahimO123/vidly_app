@@ -12,7 +12,7 @@ require("./startup/config")();
 require("./startup/logging")();
 require("./startup/dB")();
 require("./startup/routes")(app);
-require("/startup/prod")(app);
+require("./startup/prod")(app);
 
 const port = process.env.PORT || 5500;
 
